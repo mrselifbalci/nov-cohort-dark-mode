@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 50px;
+  background-color: antiquewhite;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header-dark {
+  background-color: black;
+  color: white;
+}
+
+.home {
+  min-height: 100vh;
+  background-color: cadetblue;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.home-dark {
+  background-color: rgba(0, 0, 0, 0.721);
+  color: white;
+}
+.footer {
+  height: 50px;
+  background-color: antiquewhite;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer-dark {
+  background-color: rgba(10, 10, 10, 0.938);
+  color: white;
+}
+.form {
+  height: 200px;
+  background-color: pink;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 30px;
+  text-align: center;
+}
+.form-dark {
+  background-color: rgb(22, 22, 45);
+  color: white;
+}
+.profile {
+  height: 200px;
+  background-color: lightblue;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 30px;
+  text-align: center;
+}
+.profile-dark {
+  background-color: rgb(2, 2, 31);
+  color: white;
+}
+.mode-btn {
+  background-color: pink;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.mode-btn-dark {
+  color: white;
+  background-color: red;
+}
+p {
+  font-size: 16px;
+}
